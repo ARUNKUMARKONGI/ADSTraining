@@ -20,6 +20,7 @@ public class FibanacciSeries {
         }
         System.out.println();
         System.out.println("nth Fibonacci number: " + b);
+        System.out.println();
     }
 }
 
