@@ -1,0 +1,27 @@
+home-> beginning of text
+shift+home= select all text from end to beg
+shift+end=select all text from big cursor to end of line
+end-> end of text
+ctrl+alt+H -> text highlight
+Ctrl+Home = Scroll to the top of the current page.
+ctrl+fn+up/down arrow key -> to switch between pages
+ctrl+shift+end => select all text below cursor
+shift+alt+mousclick => to select all pages and delete
+
+ctrl +N=> to add new page
+
+Scroll to the bottom of the current page.=Ctrl+End
+Go to the next paragraph.=Ctrl+Down arrow key
+Go to the previous paragraph.=Ctrl+Up arrow key
+Go to the next note container= Alt+Down arrow key
+Go to the previous page visited= Alt+Left arrow key
+Go to the next page visited, if possible=Alt+Right arrow key
+
+Create a new section.
+Ctrl+T
+
+Go to the next section.
+Ctrl+Tab
+
+Switch to a different notebook on the Navigation bar
+Ctrl+G,then press Tab key to pick a different notebook, then press Enter

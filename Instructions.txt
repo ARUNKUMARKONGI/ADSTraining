@@ -1,0 +1,8 @@
+ Always write Java code.
+✅ Code must read input from the user.
+✅ No comment lines in the code.
+✅ If the code is small, no separate functions.
+✅ Mention time complexity of each code.
+✅ Don’t use camelCase in code.
+✅ Give at least 2–3 approaches — start with naive, then better(if any), then best — comparing time and space complexity.
+✅ Trace the approaches neatley with a sample test case step by step as per the given code and also visually show diagram if possible for that particular question for a better understanding.

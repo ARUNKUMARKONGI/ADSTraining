@@ -1,0 +1,48 @@
+Bit Manipulation
+---------------------------------------
+XoR of Sum of Pairs
+Sum of XoR of all unique Pairs
+XoR Sum of all pairs with AND
+Bitwise XoR of all pairings
+
+
+Recursion
+---------------------------------------
+0/1 knapsack problem
+Subset Sum with K
+String Partitioning
+Minimum number of partitions
+Number of ways to partition String
+Minimum fibanacci terms to sum upto K
+
+
+Backtracking
+----------------------------
+Print all valid parantheses
+Magic Square
+Minimum cost to convert to a magic square
+Subset sum with K print all subsets
+Print all subsets
+Print all subsets in the lexicographical order
+Print valid Srring partitions 
+
+
+Dynamic Programming
+---------------------------------
+0/1 knapsack using top down memorization
+0/1 knapsack bottom up tabulation
+0/1 knapsack space optimized
+Climbing stars to reach to the top
+count ways to reach nth stair using step 1,2 or 3
+Minimum absolute difference of 2 subsets
+Minimum fib terms to sum upto K
+Coin exchange using bottom up DP
+
+
+Greedy Programming
+--------------------------------------
+Coin change Problem
+Fractional Knapsack
+Minimum fib terms to sum upto K
+Connect N ropes with a minimum cost
+Buy maximum stocks if i stocks can be bought on ith day.
