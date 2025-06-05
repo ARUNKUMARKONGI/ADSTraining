@@ -1,48 +1,79 @@
 Bit Manipulation
----------------------------------------
-XoR of Sum of Pairs
-Sum of XoR of all unique Pairs
-XoR Sum of all pairs with AND
-Bitwise XoR of all pairings
+----------------------------------------------------------------------------
+Sum of XoR of all unique Pairs:https://www.geeksforgeeks.org/problems/sum-of-xor-of-all-pairs0723/1
+XoR Sum of all pairs with AND: https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/description/
+Bitwise XoR of all pairings: https://leetcode.com/problems/bitwise-xor-of-all-pairings/description/
+Longest consecutive 1's: https://www.geeksforgeeks.org/problems/longest-consecutive-1s-1587115620/1
+Maximum XOR Subarray: https://www.geeksforgeeks.org/problems/maximum-xor-subarray--141631/1
 
 
 Recursion
 ---------------------------------------
-0/1 knapsack problem
-Subset Sum with K
-String Partitioning
-Minimum number of partitions
-Number of ways to partition String
-Minimum fibanacci terms to sum upto K
+0/1 knapsack problem:https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+Subset Sum with K: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
+String Partitioning(Word Break): https://leetcode.com/problems/word-break/description/
+Minimum number of partitions: practice online
+Number of ways to partition String: practice online
+Minimum fibanacci terms to sum upto K: https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/description/
+
+
+Binary Search Based
+----------------------------------------------------------------------------------------
+Binary Search with first and last occurrence: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+Peak Element: https://leetcode.com/problems/find-peak-element/description/
+Search in Bitonic Array: https://www.interviewbit.com/problems/search-in-bitonic-array/
+Search in rotated sorted array: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+Aggressive Cows: https://www.geeksforgeeks.org/problems/aggressive-cows/1
+
 
 
 Backtracking
-----------------------------
-Print all valid parantheses
-Magic Square
-Minimum cost to convert to a magic square
-Subset sum with K print all subsets
-Print all subsets
-Print all subsets in the lexicographical order
-Print valid Srring partitions 
+----------------------------------------
+Print all valid parantheses:  https://leetcode.com/problems/generate-parentheses/description/ 
+Magic Square: https://www.hackerrank.com/challenges/magic-square-forming/problem
+Minimum cost to convert to a magic square: Practice Online
+Subset sum with K print all subsets: https://www.hackerearth.com/problem/algorithm/print-subset-sum-to-k/
+Print all subsets: https://www.geeksforgeeks.org/problems/subsets-1613027340/1
+Print all subsets in the lexicographical order: Practice Online
+Print valid String partitions(Word break II): https://leetcode.com/problems/word-break-ii/description/ 
+N Queens Problem: https://leetcode.com/problems/n-queens/description/
 
 
 Dynamic Programming
 ---------------------------------
-0/1 knapsack using top down memorization
-0/1 knapsack bottom up tabulation
-0/1 knapsack space optimized
-Climbing stars to reach to the top
-count ways to reach nth stair using step 1,2 or 3
-Minimum absolute difference of 2 subsets
-Minimum fib terms to sum upto K
-Coin exchange using bottom up DP
+0/1 knapsack using top down memorization:https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+0/1 knapsack bottom up tabulation:https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+0/1 knapsack space optimized: https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+Climbing stars to reach to the top: https://leetcode.com/problems/climbing-stairs/description/
+Climbing Stairs - Count ways to reach Nth stair (Order does not matter): https://www.geeksforgeeks.org/problems/count-ways-to-nth-stairorder-does-not-matter5639/1
+Minimum absolute difference of 2 subsets: https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1
+Minimum fib terms to sum upto K:https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/description/
+Coin exchange using bottom up DP:https://leetcode.com/problems/coin-change/description/
+String Partitioning(Word Break): https://leetcode.com/problems/word-break/description/
+Minimum number of partitions: practice online using DP
+Number of ways to partition String: practice online using DP
 
 
 Greedy Programming
 --------------------------------------
-Coin change Problem
-Fractional Knapsack
-Minimum fib terms to sum upto K
-Connect N ropes with a minimum cost
-Buy maximum stocks if i stocks can be bought on ith day.
+Coin change Problem: https://leetcode.com/problems/coin-change/description/
+Fractional Knapsack: https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
+Minimum fib terms to sum upto K: https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/description/
+Connect N ropes with a minimum cost: https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1
+Buy maximum stocks if i stocks can be bought on ith day: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/, 
+or https://www.geeksforgeeks.org/buy-maximum-stocks-stocks-can-bought-th-day/
+
+
+Subarray Subset Subsequence Problems
+-------------------------------------
+Sum of all subarrays:https://www.geeksforgeeks.org/problems/sum-of-subarrays2229/1
+sum of all subsequences:Practice online
+subarray with 0 sum:https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
+Maximum subarray sum:https://leetcode.com/problems/maximum-subarray/description/
+Longest consecutive subsequence: https://www.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/1
+
+Additional Problems: 
+-----------------------------
+Find Pivot Index Prefix Sum: https://leetcode.com/problems/find-pivot-index/description/
+Largest Rectangle in Histogram: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
+Kth Smallest element in sorted matrix: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/

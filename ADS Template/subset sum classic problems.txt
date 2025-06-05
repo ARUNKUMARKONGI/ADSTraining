@@ -1,7 +1,0 @@
-All subsets (not just one)
-
-Smallest/shortest subset
-
-Subsets with maximum number of elements
-
-Space-optimized version
