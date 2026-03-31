@@ -7,8 +7,8 @@ public class tail {
         {
              return;
         }
-        rec(n-1);
         System.out.println(n);
+        rec(n-1);
         
     }
     public static void main(String[] args) {

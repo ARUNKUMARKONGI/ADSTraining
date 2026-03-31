@@ -7,9 +7,11 @@ public class headtail {
         {
              return;
         }
-        rec(n-1);
+      
         System.out.println(n);
+        rec(n-1);
         System.out.println("GRIET");
+        
         
     }
     public static void main(String[] args) {

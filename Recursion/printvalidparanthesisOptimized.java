@@ -1,33 +1,26 @@
 package Recursion;
 import java.util.*;
 
+
 public class printvalidparanthesisOptimized {
-    
-    static ArrayList<String> result = new ArrayList<>();
+    static void generate(int n, int open, int close, String s) {
+        if (s.length() == n) {
+            System.out.println(s);
+            return;
+        }
+        if (open < n / 2)
+            generate(n, open + 1, close, s + "(");
+        if (close < open)
+            generate(n, open, close + 1, s + ")");
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        if(n % 2 != 0) {
-            System.out.println("No valid sequences");
+        int n = sc.nextInt(); // n must be even
+        if (n % 2 != 0) {
+            System.out.println("Enter even number only");
             return;
         }
-        generate("", 0, 0, n / 2);
-        for(String s : result) {
-            System.out.println(s);
-        }
-    }
-
-    static void generate(String current, int open, int close, int max) {
-        if(current.length() == max * 2) {
-            result.add(current);
-            return;
-        }
-        if(open < max) {
-            generate(current + "(", open + 1, close, max);
-        }
-        if(close < open) {
-            generate(current + ")", open, close + 1, max);
-        }
+        generate(n, 0, 0, "");
     }
 }

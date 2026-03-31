@@ -1,0 +1,11 @@
+Dear students,
+
+Once you practiced basic problems on bitmanipulation. Start solving following problems:
+
+*Bit Manipulation Lab Agenda*
+-----------------------------------------------
+Sum of XoR of all unique Pairs:https://www.geeksforgeeks.org/problems/sum-of-xor-of-all-pairs0723/1
+XoR Sum of all pairs with AND: https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/description/
+Bitwise XoR of all pairings: https://leetcode.com/problems/bitwise-xor-of-all-pairings/description/
+Longest consecutive 1's: https://www.geeksforgeeks.org/problems/longest-consecutive-1s-1587115620/1
+Maximum XOR Subarray: https://www.geeksforgeeks.org/problems/maximum-xor-subarray--141631/1

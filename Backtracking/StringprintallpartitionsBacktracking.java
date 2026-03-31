@@ -30,5 +30,3 @@ public class StringprintallpartitionsBacktracking {
         }
     }
 }
-//This is a key part of backtracking — you try one option, explore deeper, 
-//then when done, remove that option and try next possible options if any exist.

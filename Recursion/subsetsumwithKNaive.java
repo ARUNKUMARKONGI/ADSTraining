@@ -17,12 +17,15 @@ import java.util.*;
 public class subsetsumwithKNaive 
 {
     public static boolean subset_sum(int[] arr, int n, int k) {
-        if (k == 0) return true;
-        if (n == 0) return arr[0] == k;
-        boolean not_pick = subset_sum(arr, n - 1, k);
-        boolean pick = false;
-        if (arr[n] <= k) pick = subset_sum(arr, n - 1, k - arr[n]);
-        return pick || not_pick;
+        // if (k == 0) return true;
+        // if (n == 0) return arr[0] == k;
+        // boolean not_pick = subset_sum(arr, n - 1, k);
+        // boolean pick = false;
+        // if (arr[n] <= k) pick = subset_sum(arr, n - 1, k - arr[n]);
+        // return pick || not_pick;
+        if(k == 0) return true;
+        if(n == -1) return false;
+        return subset_sum(arr,n-1,k-arr[n]) || subset_sum(arr,n-1,k);
     }
 
     public static void main(String[] args) {

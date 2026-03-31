@@ -1,21 +1,17 @@
-package Recursion;
+package DynamicProgramming;
 import java.util.*;
 
-public class subsetsumwithKMinSubset {
+public class subsetsumwithKminSubset {
     static int[][] dp;
     static int inf = (int)1e9;
 
-    public static int subset_sum(int[] a, int i, int k) {
-        if (k == 0) return 0;
+    public static int subset_sum(int[] a, int i, int k,int count) {
+        if (k == 0) return count;
+        if(k < 0) return inf;
         if (i < 0) return inf;
-        if (dp[i][k] != -1) return dp[i][k];
+        if (dp[i][k]!=-1) return dp[i][k];
 
-        int not_pick = subset_sum(a, i - 1, k);
-        int pick = inf;
-        if (a[i] <= k)
-            pick = 1 + subset_sum(a, i - 1, k - a[i]);
-
-        return dp[i][k] = Math.min(pick, not_pick);
+        return dp[i][k]=Math.min(subset_sum(a,i-1,k-a[i],count+1),subset_sum(a,i-1,k,count));
     }
 
     public static void main(String[] args) {
@@ -29,7 +25,7 @@ public class subsetsumwithKMinSubset {
         for (int i = 0; i < n; i++)
             Arrays.fill(dp[i], -1);
 
-        int ans = subset_sum(a, n - 1, k);
+        int ans = subset_sum(a, n - 1, k, 0);
         System.out.println(ans >= inf ? -1 : ans);
     }
 }

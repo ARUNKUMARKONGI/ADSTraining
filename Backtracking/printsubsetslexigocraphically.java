@@ -1,35 +1,29 @@
 package Backtracking;
+
 import java.util.*;
 
-public class printsubsetslexigocraphically{
+public class printsubsetslexigocraphically {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int arr[] = new int[n];
-        for(int i=0;i<n;i++) arr[i] = sc.nextInt();
-        
-        Arrays.sort(arr);
-        List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> temp = new ArrayList<>();
-        generate(0, arr, temp, ans);
-        
-        for(List<Integer> subset : ans) {
-            System.out.print("[");
-            for(int i=0;i<subset.size();i++) {
-                System.out.print(subset.get(i));
-                if(i != subset.size() - 1) System.out.print(", ");
-            }
-            System.out.println("]");
-        }
+        int[] nums = {1,2, 3};
+        List<Integer> subset = new ArrayList<>();
+        generateSubsets(nums, 0, subset);
     }
 
-    public static void generate(int idx, int[] arr, List<Integer> temp, List<List<Integer>> ans) {
-        ans.add(new ArrayList<>(temp));
-        for(int i=idx;i<arr.length;i++) {
-            temp.add(arr[i]);
-            generate(i+1, arr, temp, ans);
-            temp.remove(temp.size()-1);
+    static void generateSubsets(int[] nums, int index, List<Integer> subset) {
+        if (index == nums.length) {
+            return;
         }
+        
+        // Option 1: Include nums[index]
+        subset.add(nums[index]);
+        System.out.println(subset);
+        generateSubsets(nums, index + 1, subset);
+
+        // Backtrack: Remove last added element
+        subset.remove(subset.size() - 1);
+
+        // Option 2: explore further options
+        generateSubsets(nums, index + 1, subset);
     }
 }
 

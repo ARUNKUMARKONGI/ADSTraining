@@ -14,9 +14,10 @@ public class PrintSubsetsBacktracking {
             System.out.println(subset);
             return;
         }
-
+        
         // Option 1: Include nums[index]
         subset.add(nums[index]);
+        //System.out.println(subset);
         generateSubsets(nums, index + 1, subset);
 
         // Backtrack: Remove last added element
@@ -26,6 +27,7 @@ public class PrintSubsetsBacktracking {
         generateSubsets(nums, index + 1, subset);
     }
 }
+
 /* | Call Stack Level | index | subset (current) | Action                                   | Next calls                                              |
 | ---------------- | ----- | ---------------- | ---------------------------------------- | ------------------------------------------------------- |
 | 0                | 0     | \[]              | Include `nums[0] = 1`                    | Call `generateSubsets(nums,1,[1])`                      |

@@ -34,3 +34,52 @@ class SumOfXorPairs {
         System.out.println("Sum of XOR of all unique pairs: " + result);
     }
 }
+
+
+// Key Observation:
+
+// XOR gives 1 only when bits differ.
+
+// So instead of pairwise XOR:
+
+// We count how many pairs differ at each bit.
+
+// Number   Bit2 Bit1 Bit0
+// 7          1    1    1
+// 3          0    1    1
+// 5          1    0    1
+// Step 2 — Count Set / Unset Per Bit
+// Bit 0 (LSB)
+// Values: 1, 1, 1
+
+// Set = 3
+// Unset = 0
+
+// Pairs contributing = 3 × 0 = 0
+// Contribution = 0 × 2⁰ = 0
+
+// Bit 1
+// Values: 1, 1, 0
+
+// Set = 2
+// Unset = 1
+
+// Pairs = 2 × 1 = 2
+// Contribution = 2 × 2¹ = 4
+
+// Bit 2
+// Values: 1, 0, 1
+
+// Set = 2
+// Unset = 1
+
+// Pairs = 2 × 1 = 2
+// Contribution = 2 × 2² = 8
+
+// Step 3 — Add Contributions
+// Bit0 → 0
+// Bit1 → 4
+// Bit2 → 8
+
+// Total = 12
+

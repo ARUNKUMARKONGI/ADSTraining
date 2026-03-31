@@ -1,0 +1,68 @@
+Bit Manipulation
+------------------------------
+1. Sum of XoR of all unique Pairs:
+https://www.geeksforgeeks.org/problems/sum-of-xor-of-all-pairs0723/1
+2. XoR Sum of all pairs with AND: 
+https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/description/
+3. Bitwise XoR of all pairings:
+ https://leetcode.com/problems/bitwise-xor-of-all-pairings/description/
+4. Longest consecutive 1's:
+ https://www.geeksforgeeks.org/problems/longest-consecutive-1s-1587115620/1
+5. Maximum XOR Subarray: 
+https://www.geeksforgeeks.org/problems/maximum-xor-subarray--141631/1
+
+
+
+Recursion, BackTracking and DP
+------------------------------------------------
+Recursion and Backtracking Lab Agenda
+---------------------------------------
+Nth Fibanacci Number: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
+Sum of all subsets: https://takeuforward.org/plus/dsa/problems/subsets-i
+Print all valid parantheses:  https://leetcode.com/problems/generate-parentheses/description/
+sum of fibanacci series: https://www.geeksforgeeks.org/problems/fibonacci-sum1423/1
+print first N fibanacci numbers: https://www.geeksforgeeks.org/problems/print-first-n-fibonacci-numbers1002/1
+Print all subsets: https://www.geeksforgeeks.org/problems/subsets-1613027340/1
+Print all subsets in the lexicographical order: Practice Online 
+0/1 knapsack problem:https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+climbing stairs to the top: https://leetcode.com/problems/climbing-stairs/description/
+climbing stairs to the top with order: https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
+https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
+
+4) https://leetcode.com/problems/house-robber/description/
+
+5) https://leetcode.com/problems/longest-increasing-subsequence/description/
+
+6) https://leetcode.com/problems/unique-paths/description/
+
+7) https://leetcode.com/problems/minimum-path-sum/description/
+
+8) http://leetcode.com/problems/coin-change/description/
+
+9) https://leetcode.com/problems/longest-palindromic-subsequence/description/
+
+10) https://leetcode.com/problems/maximal-rectangle/description/
+
+
+
+Trees------------------------------------
+
+1) https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+
+2) https://leetcode.com/problems/diameter-of-binary-tree/description/
+ 
+3) https://leetcode.com/problems/balanced-binary-tree/description/
+
+4) https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
+
+5) https://leetcode.com/problems/binary-tree-right-side-view/description/
+
+6) https://www.geeksforgeeks.org/problems/floor-in-bst/1
+
+7) https://leetcode.com/problems/validate-binary-search-tree/description/
+
+8) https://leetcode.com/problems/insert-into-a-binary-search-tree/
+
+9) https://leetcode.com/problems/delete-node-in-a-bst/
+
+10) https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
