@@ -1,4 +1,4 @@
-package Additional;
+package ADSTraining.Additional;
 import java.util.*;
 
 public class LargestRectangleHistogram {

@@ -18,7 +18,7 @@ public class CoinExchangeDP {
         Arrays.fill(dp, amount + 1);
         dp[0] = 0;
 
-        for (int i = 1; i <= amount; i++) {
+        for (int i = 1; i <= amount; i++) {  //forward loop to reuse same coin
             for (int j = 0; j < n; j++) {
                 if (i >= coins[j]) {
                     dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);

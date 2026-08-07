@@ -6,6 +6,7 @@ public class printsubsetslexigocraphically {
     public static void main(String[] args) {
         int[] nums = {1,2, 3};
         List<Integer> subset = new ArrayList<>();
+        System.out.println(subset);
         generateSubsets(nums, 0, subset);
     }
 
@@ -27,3 +28,13 @@ public class printsubsetslexigocraphically {
     }
 }
 
+/* void solve(int arr[], int start, List<Integer> list)
+{
+		 System.out.println(list);
+		 for(int i=start;i<arr.length;i++)
+		{
+		 list.add(arr[i]);
+		 solve(arr,i+1,list);
+		 list.remove(list.size()-1);
+      }
+} */

@@ -7,7 +7,7 @@ public class countingstairswithoutorder {
     }
 
     public static void main(String[] args) {
-        int n = 8;
+        int n = 3;
         System.out.println(nthStair(n));
     }
 }

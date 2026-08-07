@@ -1,4 +1,4 @@
-package DynamicProgramming;
+// package DynamicProgramming;
 
 import java.util.*;
 
@@ -35,7 +35,7 @@ public class knapsack_topdowndp_memoization {
         for(int i = 0; i <= n; i++)
             Arrays.fill(dp[i], -1);
 
-        int result = knapsack(n-1, W, wt, val, dp);
+        int result = knapsack(n, W, wt, val, dp);
         System.out.println("Maximum profit: " + result);
     }
 }

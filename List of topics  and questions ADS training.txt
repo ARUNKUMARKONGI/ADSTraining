@@ -22,37 +22,37 @@ Maximum XOR Subarray: https://www.geeksforgeeks.org/problems/maximum-xor-subarra
 
 
 
-Recursion
+Recursion and Backtracking (easy to medium)
 ---------------------------------------
-Nth Fibanacci Number: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
-Sum of all subsets: https://takeuforward.org/plus/dsa/problems/subsets-i
-Print all valid parantheses:  https://leetcode.com/problems/generate-parentheses/description/
-sum of fibanacci series: https://www.geeksforgeeks.org/problems/fibonacci-sum1423/1
-print first N fibanacci numbers: https://www.geeksforgeeks.org/problems/print-first-n-fibonacci-numbers1002/1
-Print all subsets: https://www.geeksforgeeks.org/problems/subsets-1613027340/1
-Print all subsets in the lexicographical order: Practice Online 
-0/1 knapsack problem:https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
-Subset Sum with K: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
-climbing stairs to the top: https://leetcode.com/problems/climbing-stairs/description/
-climbing stairs to the top with order: https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
+1.Nth Fibanacci Number: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
+2.Sum of all subsets: https://takeuforward.org/plus/dsa/problems/subsets-i
+3.sum of fibanacci series: https://www.geeksforgeeks.org/problems/fibonacci-sum1423/1
+4.print first N fibanacci numbers: https://www.geeksforgeeks.org/problems/print-first-n-fibonacci-numbers1002/1
+5.Print all subsets: https://www.geeksforgeeks.org/problems/subsets-1613027340/1
+6.Print all subsets in the lexicographical order: https://www.geeksforgeeks.org/problems/subsets-1613027340/1
+7.Generate balanced parantheses: https://www.geeksforgeeks.org/problems/generate-all-possible-parentheses/1
+8.Generate balanced paranthesis of size N:https://leetcode.com/problems/generate-parentheses/
+9.0/1 knapsack problem:https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+10.Subset Sum with K: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
+11.climbing stairs to the top distinct ways: https://leetcode.com/problems/climbing-stairs/description/
+12.climbing stairs to the top without order: https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
+13.climbing  n stairs with 3 steps: https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair-using-step-1-2-3/
 
+
+
+
+Backtracking(advanced)
+---------------------------------------- 
+Magic Square: https://www.hackerrank.com/challenges/magic-square-forming/problem
+Minimum cost to convert to a magic square: Practice Online
+Subset sum with K print all subsets: https://www.hackerearth.com/problem/algorithm/print-subset-sum-to-k/
+Print valid String partitions(Word break II): https://leetcode.com/problems/word-break-ii/description/ 
+N Queens Problem: https://leetcode.com/problems/n-queens/description/
 Rod cutting problem: https://www.geeksforgeeks.org/problems/rod-cutting0840/1
 String Partitioning(Word Break): https://leetcode.com/problems/word-break/description/
 Minimum number of partitions: practice online
 Number of ways to partition String: practice online
 
-
-
-Backtracking
-----------------------------------------
-Print all valid parantheses:  https://leetcode.com/problems/generate-parentheses/description/ 
-Magic Square: https://www.hackerrank.com/challenges/magic-square-forming/problem
-Minimum cost to convert to a magic square: Practice Online
-Subset sum with K print all subsets: https://www.hackerearth.com/problem/algorithm/print-subset-sum-to-k/
-Print all subsets: https://www.geeksforgeeks.org/problems/subsets-1613027340/1
-Print all subsets in the lexicographical order: Practice Online
-Print valid String partitions(Word break II): https://leetcode.com/problems/word-break-ii/description/ 
-N Queens Problem: https://leetcode.com/problems/n-queens/description/
 
 
 
