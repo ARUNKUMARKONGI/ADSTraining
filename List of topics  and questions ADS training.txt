@@ -33,10 +33,12 @@ Recursion and Backtracking (easy to medium)
 7.Generate balanced parantheses: https://www.geeksforgeeks.org/problems/generate-all-possible-parentheses/1
 8.Generate balanced paranthesis of size N:https://leetcode.com/problems/generate-parentheses/
 9.0/1 knapsack problem:https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
-10.Subset Sum with K: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
-11.climbing stairs to the top distinct ways: https://leetcode.com/problems/climbing-stairs/description/
-12.climbing stairs to the top without order: https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
-13.climbing  n stairs with 3 steps: https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair-using-step-1-2-3/
+10.Subsets II: https://leetcode.com/problems/subsets-ii/description/
+11.Subset Sum with K: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
+12.climbing stairs to the top distinct ways: https://leetcode.com/problems/climbing-stairs/description/
+13.climbing stairs to the top without order: https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
+14.climbing  n stairs with 3 steps: https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair-using-step-1-2-3/
+15.Sum of all subsets: https://takeuforward.org/plus/dsa/problems/subsets-i
 
 
 

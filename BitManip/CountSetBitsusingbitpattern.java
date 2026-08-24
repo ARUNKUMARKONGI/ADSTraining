@@ -6,7 +6,7 @@ public class CountSetBitsusingbitpattern {
         int total = 0;
         int i = 0;
 
-        while ((1 << i) <= n) {
+        while ((1 << i) <= n) { //math.pow(2,i)
             int cycleLength = 1 << (i + 1);  // 2^(i+1)
             int completeCycles = n / cycleLength;
 
